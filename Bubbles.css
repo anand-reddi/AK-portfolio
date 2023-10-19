@@ -1,0 +1,151 @@
+.container {
+  position: relative;
+  width: auto;
+  float: right;
+  left: -10rem;
+  top: -26rem;
+}
+.bubble {
+  position: absolute;
+  width: 12.5rem;
+  height: 12.5rem;
+  border-radius: 50%;
+  box-shadow: inset 0 0 25px rgba (255, 255, 255, 0.25);
+  animation: animate_4010 8s ease-in-out infinite;
+}
+
+.bubble:nth-child(2) {
+  position: relative;
+  zoom: 0.45;
+  left: 37.5rem;
+  top: -1.2rem;
+  animation-delay: -4s;
+  z-index: -1;
+}
+
+.bubble:nth-child(3) {
+  position: relative;
+  zoom: 0.45;
+  right: -5rem;
+  top: -18.7rem;
+  animation-delay: -6s;
+}
+
+.bubble:nth-child(4) {
+  position: relative;
+  zoom: 0.35;
+  left: 12.5rem;
+  bottom: -31.2rem;
+  animation-delay: -3s;
+}
+
+.bubble:nth-child(5) {
+  position: relative;
+  zoom: 0.5;
+  left: 40rem;
+  top: 19rem;
+  animation-delay: -5s;
+}
+
+@keyframes animate_4010 {
+  0%,
+  100% {
+    transform: translateY(-20px);
+  }
+
+  50% {
+    transform: translateY(20px);
+  }
+}
+
+.bubble::before {
+  content: "";
+  position: absolute;
+  top: 3.1rem;
+  left: 2.8rem;
+  width: 1.8rem;
+  height: 1.8rem;
+  border-radius: 50%;
+  background: #fff;
+  z-index: 10;
+  filter: blur(2px);
+}
+
+.bubble::after {
+  content: "";
+  position: absolute;
+  top: 5rem;
+  left: 5rem;
+  width: 1.2rem;
+  height: 1.2rem;
+  border-radius: 50%;
+  background: #fff;
+  z-index: 10;
+  filter: blur(2px);
+}
+
+.bubble span {
+  position: absolute;
+  border-radius: 50%;
+}
+
+.bubble span:nth-child(1) {
+  inset: 0.6rem;
+  border-left: 0.9rem solid #0fb4ff;
+  filter: blur(8px);
+}
+
+.bubble span:nth-child(2) {
+  inset: 0.6rem;
+  border-right: 0.9rem solid #ff4484;
+  filter: blur(8px);
+}
+
+.bubble span:nth-child(3) {
+  inset: 0.6rem;
+  border-top: 0.9rem solid #ffeb3b;
+  filter: blur(8px);
+}
+
+.bubble span:nth-child(4) {
+  inset: 1.8rem;
+  border-left: 0.9rem solid #ff4484;
+  filter: blur(12px);
+}
+
+.bubble span:nth-child(5) {
+  inset: 0.6rem;
+  border-bottom: 0.6rem solid #fff;
+  filter: blur(8px);
+  transform: rotate(330deg);
+}
+@media (max-width: 768px) {
+  html,
+  body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+}
+@media (max-width: 768px) {
+  .introcard {
+    margin-left: 2rem;
+    top: 2.5rem;
+  }
+}
+@media (max-width: 768px) {
+  .card2 {
+    /* margin-right: -9rem; */
+    top: 3.5rem;
+    left: 9rem;
+  }
+}
+@media (max-width: 768px) {
+  p,
+  .discription {
+    
+   
+    font-size: 1.5rem;
+  }
+}

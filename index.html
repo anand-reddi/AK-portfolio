@@ -1,0 +1,691 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="Bubbles.css" />
+    <link rel="stylesheet" href="newnav.css" />
+    <link rel="stylesheet" href="scrollbar.css" />
+    <link rel="stylesheet" href="indicator.css" />
+    <link rel="stylesheet" href="skills.css" />
+    <link rel="stylesheet" href="stats.css" />
+    <link rel="stylesheet" href="projects.css" />
+    <link rel="stylesheet" href="cursor.css" />
+    <link rel="stylesheet" href="footer.css" />
+    <link rel="icon" type="image/x-icon" href="/Files/logo Ak.png" />
+    <title>Developer AK</title>
+  </head>
+  <body>
+    <main>
+      <section>
+        <div class="circle"></div>
+<div class="circle"></div>
+<div class="circle"></div>
+<div class="circle"></div>
+<div class="circle"></div>
+<div class="circle"></div>
+<div class="circle"></div>
+<div class="circle"></div>
+<div class="circle"></div>
+<div class="circle"></div>
+<div class="circle"></div>
+<div class="circle"></div>
+<div class="circle"></div>
+<div class="circle"></div>
+<div class="circle"></div>
+      </section>
+      <nav class="navigation-menu">
+        <div
+          class="navigation-menu__overlay"
+          onclick="toggleMenuClicked()"
+        ></div>
+        <button
+          type="button"
+          class="hamburger-menu"
+          onclick="toggleMenuClicked()"
+        >
+          <span class="material-icons" id="open-icon">menu</span>
+          <span class="material-icons" id="close-icon">close</span>
+        </button>
+        <h1 class="site-identity-logo">‹∆k›</i></h1>
+        <section class="navigation-menu__labels">
+          <!-- <button onclick="myFunction()">Dark mode</button> -->
+          <button type="button">Home</button>
+          <button type="button">Skills</button>
+          <button type="button">projects</button>
+          <button type="button">Experience</button>
+          <button type="button">Contact Us</button>
+        </section>
+      </nav>
+      <section class="introcard">
+        <div class="introname">
+          <span class="topline">Hey👻</span>
+          <h2>This is</h2>
+          <h1 class="anime-character">∆nand Krishna</h1>
+          <p>< Front-End Developer ></p>
+          <div class="disc-box">
+
+            <p class="discription">
+              A developer who is intrested in more than just code,<br />
+              Developed some projects. Coordinated the work of team of three,<br />
+              Intrested in a product that improves or simplifies life.
+            </p>
+          </div>
+          <button class="button1" onclick="location.href='/Files/Anand Resume Exp.pdf.pdf';">Download CV</button>
+          <a href = "mailto: kskreddy97@gmail.com"> <button class="button2">Hire me</button></a>
+         
+        </div>
+      </section>
+      <section class="card2 ">
+        <div class="profile">
+          <h3 href="Profilepic">
+            <img src="Files/profile 1_11zon.jpg" alt="" />
+          </h3>
+        </div>
+        <div class="container">
+          <div class="bubble">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div class="bubble">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div class="bubble">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div class="bubble">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div class="bubble">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+        <div class="indicator"></div>
+      </section>
+    </main>
+
+    <section class="container2">
+      <div class="skills reveal" id="skills">
+
+        <div class="skills-content ">
+
+          <h1 class="section-subtitle">My skills</h1>
+
+          <h2 class="h3 section-title">What My Programming Skills Included?</h2>
+
+          <p class="section-text">
+            I develop simple, intuitive and responsive user interface that helps users get things done with less effort
+            and time
+            with those technologies.
+          </p>
+
+          <div class="skills-toggle" data-toggle-box>
+            <button class="toggle-btn active" data-toggle-btn>Skills</button>
+
+            <button class="toggle-btn" data-toggle-btn>Tools</button>
+          </div>
+
+        </div>
+
+        <div class="skills-box" data-skills-box>
+
+          <ul class="skills-list">
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">HTML5</div>
+
+                <div class="card-icon">
+                  <img src="./Files/images/html5.png" alt="HTML5 logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">CSS3</div>
+
+                <div class="card-icon">
+                  <img src="./Files/images/css3.png" alt="CSS3 logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">JavaScript</div>
+
+                <div class="card-icon">
+                  <img src="./Files/images/javascript.png" alt="JavaScript logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">TypeScript</div>
+
+                <div class="card-icon">
+                  <img src="./Files/images/typescript.png" alt="TypeScript logo">
+                </div>
+              </div>
+            </li>
+
+            <!-- <li>
+              <div class="skill-card">
+                <div class="tooltip">jQuery</div>
+
+                <div class="card-icon">
+                  <img src="./Files/images/jquery.png" alt="jQuery logo">
+                </div>
+              </div>
+            </li> -->
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Bootstrap</div>
+
+                <div class="card-icon">
+                  <img src="./Files/images/bootstrap.png" alt="Bootstrap logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Angular</div>
+
+                <div class="card-icon">
+                  <img src="./Files/images/angular.png" alt="Angular logo">
+                </div>
+              </div>
+            </li>
+
+            <!-- <li>
+              <div class="skill-card">
+                <div class="tooltip">React</div>
+
+                <div class="card-icon">
+                  <img src="./Files/images/react.png" alt="React logo">
+                </div>
+              </div>
+            </li> -->
+
+            <!-- <li>
+              <div class="skill-card">
+                <div class="tooltip">Vue</div>
+
+                <div class="card-icon">
+                  <img src="./Files/images/vue.png" alt="Vue logo">
+                </div>
+              </div>
+            </li> -->
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Firebase</div>
+
+                <div class="card-icon">
+                  <img src="./Files/images/firebase.png" alt="Firebase logo">
+                </div>
+              </div>
+            </li>
+
+            <!-- <li>
+              <div class="skill-card">
+                <div class="tooltip">PugJs</div>
+
+                <div class="card-icon">
+                  <img src="./Files/images/pugjs.png" alt="PugJs logo">
+                </div>
+              </div>
+            </li> -->
+
+            <!-- <li>
+              <div class="skill-card">
+                <div class="tooltip">SASS</div>
+
+                <div class="card-icon">
+                  <img src="./Files/images/sass.png" alt="SASS logo">
+                </div>
+              </div>
+            </li> -->
+
+          </ul>
+
+          <ul class="tools-list">
+
+            <!-- <li>
+              <div class="skill-card">
+                <div class="tooltip">Ajax</div>
+
+                <div class="card-icon">
+                  <img src="./Files/images/ajax.png" alt="Ajax logo">
+                </div>
+              </div>
+            </li> -->
+
+            <!-- <li>
+              <div class="skill-card">
+                <div class="tooltip">Gulp</div>
+
+                <div class="card-icon">
+                  <img src="./Files/images/gulp.png" alt="Gulp logo">
+                </div>
+              </div>
+            </li> -->
+
+            <!-- <li>
+              <div class="skill-card">
+                <div class="tooltip">Webpack</div>
+
+                <div class="card-icon">
+                  <img src="./Files/images/webpack.png" alt="Webpack logo">
+                </div>
+              </div>
+            </li> -->
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Git</div>
+
+                <div class="card-icon">
+                  <img src="./Files/images/git.png" alt="Git logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Npm</div>
+
+                <div class="card-icon">
+                  <img src="./Files/images/npm.png" alt="Npm logo">
+                </div>
+              </div>
+            </li>
+
+            <!-- <li>
+              <div class="skill-card">
+                <div class="tooltip">Command Line</div>
+
+                <div class="card-icon">
+                  <img src="./Files/images/command.png" alt="Command Line logo">
+                </div>
+              </div>
+            </li> -->
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">VS Code</div>
+
+                <div class="card-icon">
+                  <img src="./Files/images/vs-code.png" alt="VS Code logo">
+                </div>
+              </div>
+            </li>
+
+            <!-- <li>
+              <div class="skill-card">
+                <div class="tooltip">Trello</div>
+
+                <div class="card-icon">
+                  <img src="./Files/images/trello.png" alt="Trello logo">
+                </div>
+              </div>
+            </li> -->
+
+            <!-- <li>
+              <div class="skill-card">
+                <div class="tooltip">ClickUp</div>
+
+                <div class="card-icon">
+                  <img src="./Files/images/clickup.png" alt="ClickUp logo">
+                </div>
+              </div>
+            </li> -->
+
+            <!-- <li>
+              <div class="skill-card">
+                <div class="tooltip">Slack</div>
+
+                <div class="card-icon">
+                  <img src="./Files/images/slack.png" alt="Slack logo">
+                </div>
+              </div>
+            </li> -->
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Photoshop</div>
+
+                <div class="card-icon">
+                  <img src="./Files/images/photoshop.png" alt="Photoshop logo">
+                </div>
+              </div>
+            </li>
+
+            <!-- <li>
+              <div class="skill-card">
+                <div class="tooltip">Adobe XD</div>
+
+                <div class="card-icon">
+                  <img src="./Files/images/adobe-xd.png" alt="Adobe XD logo">
+                </div>
+              </div>
+            </li> -->
+
+          </ul>
+
+        </div>
+
+      </div>
+      <section class="stats reveal" id="stats">
+        <ul class="stats-list">
+
+          <li>
+            <a style="text-decoration: none" href="#" class="stats-card">
+
+              <div class="card-icon">
+                <img src="./Files/images/stats-card_icon-1.png" alt="Badge icon">
+              </div>
+
+              <h2 class="h2 card-title">
+                1+ <strong>Years of Experience</strong>
+              </h2>
+
+              <ion-icon name="chevron-forward-outline"></ion-icon>
+
+            </a>
+          </li>
+
+          <li>
+            <a style="text-decoration: none" href="#" class="stats-card">
+
+              <div class="card-icon">
+                <img src="./Files/images/stats-card_icon-2.png" alt="Checkmark icon">
+              </div>
+
+              <h2 class="h2 card-title">
+                2+ <strong>Completed Projects</strong>
+              </h2>
+
+              <ion-icon name="chevron-forward-outline"></ion-icon>
+
+            </a>
+          </li>
+
+          <li>
+            <a style="text-decoration: none" href="#" class="stats-card">
+
+              <div class="card-icon">
+                <img src="./Files/images/stats-card_icon-3.png" alt="Peoples rating icon">
+              </div>
+
+              <h2 class="h2 card-title">
+                1+ <strong>Happy Clients</strong>
+              </h2>
+
+              <ion-icon name="chevron-forward-outline"></ion-icon>
+
+            </a>
+          </li>
+
+        </ul>
+      </section>
+    </section>
+    <section class="container3 ">
+      <section class="project reveal" id="portfolio">
+
+        <ul class="project-list">
+
+          <li>
+            <div class="project-content section-content">
+
+              <h1 class="section-subtitle">My Works</h1>
+
+              <h2 class="h3 section-title">See My Works Which Will Amaze You!</h2>
+
+              <p class="section-text">
+                We develop the best quality website that serves for the long-term. Well-documented, clean, easy and
+                elegant interface
+                helps any non-technical clients.
+              </p>
+
+            </div>
+          </li>
+
+          <li>
+            <a style="text-decoration:none" href="https://anand-krishna.web.app/"target="_blank" class="project-card">
+
+             <div>
+              Portfolio website
+             </div>
+             
+
+            </a>
+          </li>
+          
+          <li>
+            <a style="text-decoration:none" href="https://thecode-bin.web.app/"target="_blank" class="project-card">
+
+             <div>
+              Code bin website
+             </div>
+             
+
+            </a>
+          </li>
+
+          <li>
+            <a style="text-decoration:none" href="https://way2wishes.web.app/"target="_blank" class="project-card">
+
+              <div>
+               way2wishes project  
+               </div>
+               
+
+            </a>
+          </li>
+
+
+        </ul>
+
+      </section>
+      
+    </section>
+    
+    <footer>
+      <div class="footer-basic">
+        <footer>
+          <div class="social">
+            <a
+              href="https://instagram.com/anand.ig?igshid=NGExMmI2YTkyZg==" target="_blank"
+              ><i class="icon ion-social-instagram"></i></a
+            ><a href="https://github.com/anand-reddi" target="_blank"
+              ><i class="icon ion-social-github"></i></a
+            ><a href="#"><i class="icon ion-social-linkedin" target="_blank"></i></a
+            ><a href="https://twitter.com/Developer__ak" target="_blank"
+              ><i class="icon ion-social-twitter"></i
+            ></a>
+          </div>
+          <hr style="height: 2px; border-width: 0" />
+          <ul class="list-inline">
+            <li class="list-inline-item"><a href="#">Home</a></li>
+            <li class="list-inline-item"><a href="#">Skills</a></li>
+            <li class="list-inline-item"><a href="#">projects</a></li>
+            <li class="list-inline-item"><a href="#">Experience</a></li>
+            <li class="list-inline-item"><a href="#">Privacy Notice</a></li>
+          </ul>
+          <p class="copyright">Built From Scratch With <i class="fa fa-solid fa-heart fa-beat" style="color: #ff0000;"></i> Web Developer © ∆k 2022</p>
+        </footer>
+      </div>
+    </footer>
+    <script>
+      const toggleMenuClicked = () => {
+        const body = document.body;
+        const openIcon = document.getElementById("open-icon");
+        const closeIcon = document.getElementById("close-icon");
+
+        body.classList.toggle("open");
+
+        if (body.classList.contains("open")) {
+          openIcon.style.display = "none";
+          closeIcon.style.display = "flex";
+        } else {
+          openIcon.style.display = "flex";
+          closeIcon.style.display = "none";
+        }
+      };
+    </script>
+    <script>
+      function myFunction() {
+        var element = document.body;
+        element.classList.toggle("dark-mode");
+      }
+    </script>
+    <script>
+      var i = 0;
+
+      setInterval(() => {
+        document.body.style.background =
+          "linear-gradient(135deg,#ee9ca7 0%, #ffdde1 " +
+          i +
+          "%, darkorchid 100%)";
+        document.body.style.backgroundRepeat = "no-repeat";
+        // document.body.style.backgroundSize="360px 570px";
+
+        i++;
+
+        if (i == 60) {
+          i = 0;
+        }
+      }, 100);
+    </script>
+    <script>
+      const coords = {x: 0, y: 0 };
+const circles = document.querySelectorAll('.circle');
+console.log(circles);
+
+circles.forEach(function(circle) {
+  circle.x = 0;
+  circle.y = 0;
+});
+
+window.addEventListener('mousemove', function(e) {
+  coords.x = e.clientX;
+  coords.y = e.clientY;
+
+});
+
+function animateCircles() {
+  let x = coords.x;
+  let y = coords.y;
+
+  circles.forEach( function(circle, index) {
+    circle.style.left = x - 15 + "px";
+    circle.style.top = y - 15 + "px";
+    
+    circle.style.scale = (circles.length - index) / circles.length;
+    
+    circle.x = x;
+    circle.y = y;
+    
+    const nextCircle = circles[index + 1] || circles[0];
+    x += (nextCircle.x - x) * 0.2;
+    y += (nextCircle.y - y) * 0.2;
+  });
+  
+  requestAnimationFrame(animateCircles);
+}
+
+animateCircles();
+
+window.addEventListener('click', function() {
+  circles.forEach(function(circle) {
+    circle.style.transform = 'scale(1.4)';
+  });
+});
+
+
+    </script>
+    <script>
+      /**
+ * skills toggle
+ */
+ const elemToggleFunc = function (elem) { elem.classList.toggle("active"); }
+const toggleBtnBox = document.querySelector("[data-toggle-box]");
+const toggleBtns = document.querySelectorAll("[data-toggle-btn]");
+const skillsBox = document.querySelector("[data-skills-box]");
+
+for (let i = 0; i < toggleBtns.length; i++) {
+  toggleBtns[i].addEventListener("click", function () {
+
+    elemToggleFunc(toggleBtnBox);
+    for (let i = 0; i < toggleBtns.length; i++) { elemToggleFunc(toggleBtns[i]); }
+    elemToggleFunc(skillsBox);
+
+  });
+}
+    </script>
+      <script type="text/javascript">
+        window.addEventListener('scroll', reveal);
+    
+        function reveal(){
+          var reveals = document.querySelectorAll('.reveal');
+    
+          for(var i = 0; i < reveals.length; i++){
+    
+            var windowheight = window.innerHeight;
+            var revealtop = reveals[i].getBoundingClientRect().top;
+            var revealpoint = 150;
+    
+            if(revealtop < windowheight - revealpoint){
+              reveals[i].classList.add('active');
+            }
+            else{
+              reveals[i].classList.remove('active');
+            }
+          }
+        }
+        </script>
+    
+  </body>
+</html>

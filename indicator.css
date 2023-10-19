@@ -1,0 +1,43 @@
+/* .indicator {
+    background: #333;
+    height: 100vh;
+    position: relative;
+    width: 100%;
+  } */
+  
+  .indicator::before {
+    animation: bounce 1s ease infinite;
+    top: 3rem;
+    color: #fff;
+    content: '╲╱';
+    font-size: 1rem;
+    height: 4rem;
+    left: 50%;
+    letter-spacing: -1px;
+    line-height: 4rem;
+    margin-left: -3rem;
+    opacity: 0.8;
+    position: absolute;
+    text-align: center;
+    width: 6rem;
+  }
+  
+  @keyframes bounce {
+    50% {
+      transform: translateY(-50%);
+    }
+  }
+  @media (max-width: 768px ) {
+    .indicator::before  {
+    font-size: 3rem;
+    top: 9rem;
+    left: 35%;
+    }
+    }
+    @media (max-width: 820px ) {
+        .indicator::before  {
+        font-size: 2rem;
+        top: 4rem;
+        left: 35%;
+        }
+        }
